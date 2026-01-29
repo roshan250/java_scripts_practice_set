@@ -6,10 +6,11 @@ let accountState;
 //accountId=222 //not allow to modification
 accountEmail= "sudhirbhuskute@gmail.com"
 
-console.log(accountId);
 
+console.log(accountId);
 console.table([accountId,accountEmail,accountPassword,accountCity,  accountState]);
 
 /*
-
+Prefer to not use the var 
+becuse of issue in block scope and function scope
 */
