@@ -36,9 +36,17 @@ let orignalname = "roshan"
 let myname = orignalname
 myname="motu"
 console.log(orignalname)
-console.log(myname)
+console.log(typeof myObj)
 
 
 let userOne = {
-    
+    email:"roshanbhuskute25@gmail.com",
+    name:"Personal"
 }
+
+let userTwo = userOne;
+userTwo.email="roshanshicarix@gmail.com";
+userTwo.name="Working";
+
+console.log(userOne)
+console.log(userTwo)
