@@ -1,6 +1,6 @@
 
 /*String Manupulation*/
-const name = "hitesh"
+const name = "Roshan"
 const repoCount =50
 //console.log(name + repoCount + " Values")  It is old Method
 
@@ -9,9 +9,9 @@ const repoCount =50
 /*String Function*/
 const gameName = new String('Roshan');
 
-// console.log(gameName[5]); //for printing the at index value
+// console.log(gameName[1]); //for printing the at index value
 // console.log(gameName.indexOf('n'));
-// console.log(gameName.indexOf('n'));
+// console.log(gameName.slice(-2,5));
 
 
 const newString = gameName.substring(0,4)
@@ -21,4 +21,9 @@ const myName = "   Shiv   "
 console.log(myName);
 const nn=myName.trim()
 console.log(nn);
-console.log(myName.split('-'));
+const Role = "React Native Devloper";
+console.log(Role.split(" "));
+
+let email = 'roshan bhuskute@gmail.com'
+console.log(email.replace(' ', ""))
+console.log(email.includes("g"))
