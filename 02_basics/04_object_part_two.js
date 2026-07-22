@@ -6,10 +6,10 @@ Doctor.colification = "MBBS"
 Doctor.isLogin = false
 
 // Some Object Methods 
-console.log(Doctor);
-console.log(Object.keys(Doctor))
-console.log(Object.values(Doctor))
-console.log(Object.entries(Doctor))
+// console.log(Doctor);
+// console.log(Object.keys(Doctor))
+// console.log(Object.values(Doctor))
+// console.log(Object.entries(Doctor))
 
 // console.log(Doctor);
 const regularUser = {
@@ -40,17 +40,21 @@ const obj4 = Object.assign({}, obj1, obj2, obj3)
 //const obj4 = {...obj1, ...obj2, ...obj3}
 // console.log(obj4)
 
-// const course = {
-//     courseName : "js in hindi",
-//     price : "999",
-//     courseCreator : "hitesh"
-// }
-
-// const {courseCreator } =course
+// Object Destructuring
+const course = {
+    courseName : "js in hindi",
+    price : "999",
+    courseCreator : "hitesh"
+}
+console.log(course.courseCreator);
+const {courseCreator : teacher } = course
 // console.log(courseCreator);
+console.log(teacher); 
 
 //  {
 //     "courseName" : "js in hindi",
 //     "price" : "999",
 //     "courseCreator" : "hitesh"
 // }
+
+ 
