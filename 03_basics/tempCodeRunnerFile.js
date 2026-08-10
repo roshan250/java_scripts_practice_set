@@ -1,0 +1,4 @@
+console.log("in Scope")
+    // console.log(a)
+    // console.log(b)
+    // console.log
